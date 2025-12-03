@@ -1,54 +1,106 @@
 {
-    "tours": [
-        {
-            "id": 1,
-            "name": "Hà Nội - Sapa 3N2D",
-            "destination": "Sapa",
-            "duration": "3 ngày 2 đêm",
-            "price": 2500000,
-            "image": "https://picsum.photos/400/300?random=1",
-            "description": "Khám phá Sapa với những ruộng bậc thang tuyệt đẹp",
-            "available": 15
-        },
-        {
-            "id": 2,
-            "name": "Hạ Long - Cát Bà 2N1D",
-            "destination": "Hạ Long",
-            "duration": "2 ngày 1 đêm",
-            "price": 1800000,
-            "image": "https://picsum.photos/400/300?random=2",
-            "description": "Du thuyền vịnh Hạ Long - Kỳ quan thiên nhiên thế giới",
-            "available": 20
-        },
-        {
-            "id": 3,
-            "name": "Đà Lạt 4N3D",
-            "destination": "Đà Lạt",
-            "duration": "4 ngày 3 đêm",
-            "price": 3200000,
-            "image": "https://picsum.photos/400/300?random=3",
-            "description": "Thành phố ngàn hoa với khí hậu mát mẻ quanh năm",
-            "available": 10
-        }
-    ],
-    "destinations": [
-        {
-            "id": 1,
-            "name": "Sapa",
-            "icon": "🏔️",
-            "description": "Thiên đường núi rừng Tây Bắc"
-        },
-        {
-            "id": 2,
-            "name": "Hạ Long",
-            "icon": "🌊",
-            "description": "Kỳ quan thiên nhiên thế giới"
-        },
-        {
-            "id": 3,
-            "name": "Đà Lạt",
-            "icon": "🌺",
-            "description": "Thành phố ngàn hoa"
-        }
-    ]
+  "tours": [
+    {
+      "id": 1,
+      "name": "Hà Nội - Sapa 3N",
+      "destination": "Sapa",
+      "duration": "3 ngày 2 đêm",
+      "price": 2500000,
+      "image": "https://picsum.photos/400/300?random=1",
+      "description": "Khám phá Sapa với những ruộng bậc thang tuyệt đẹp",
+      "available": 15
+    },
+    {
+      "id": 2,
+      "name": "Hạ Long - Cát Bà 2N1D",
+      "destination": "Hạ Long",
+      "duration": "2 ngày 1 đêm",
+      "price": 1800000,
+      "image": "https://picsum.photos/400/300?random=2",
+      "description": "Du thuyền vịnh Hạ Long - Kỳ quan thiên nhiên thế giới",
+      "available": 20
+    },
+    {
+      "id": 3,
+      "name": "Đà Lạt 4N3D",
+      "destination": "Đà Lạt",
+      "duration": "4 ngày 3 đêm",
+      "price": 3200000,
+      "image": "https://picsum.photos/400/300?random=3",
+      "description": "Thành phố ngàn hoa với khí hậu mát mẻ quanh năm",
+      "available": 10
+    },
+    {
+      "name": "HCM 2 ngày 1 đêmm",
+      "image": "https://picsum.photos/400/300?random=1",
+      "destination": "Sài Gòn",
+      "duration": "2 ngày",
+      "price": 1000000,
+      "description": "123",
+      "available": 200,
+      "id": 4
+    },
+    {
+      "name": "abc",
+      "image": "https://picsum.photos/400/300?random=2",
+      "destination": "123",
+      "duration": "1 day",
+      "price": 10000,
+      "description": "xyz",
+      "available": 10,
+      "id": 6
+    },
+    {
+      "name": "abc",
+      "image": "https://picsum.photos/400/300?random=1",
+      "destination": "xyz",
+      "duration": "1 ngày ",
+      "price": 123456,
+      "description": "zxc",
+      "available": 1,
+      "id": 7
+    },
+    {
+      "name": "abc",
+      "image": "https://picsum.photos/400/300?random=1",
+      "destination": "zxc",
+      "duration": "2n",
+      "price": 1,
+      "description": "zcvrvcwr",
+      "available": 1,
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "email": "abc123@gmail.com",
+      "password": "$2a$10$S5LycqmrXiFdMjG5kArMZu/P/m9hZqVqgtpNEx3Nh8lqNTAeMshE6",
+      "username": "abc",
+      "id": 1
+    },
+    {
+      "email": "admin123@gmail.com",
+      "password": "$2a$10$dYg6rFDl00Rk1hu7fVbq1esEKiEw5tZV9KkthiQ4GmoMj853XQi3S",
+      "username": "admin",
+      "id": 2
+    },
+    {
+      "email": "abc123@gmaill.com",
+      "password": "$2a$10$R8Gf7OanHmcVsPXMccFdBOw4e6ZmM9ATqzmBmysCwx3XKkskla9..",
+      "username": "abc",
+      "id": 3
+    },
+    {
+      "email": "xyz789@gmail.com",
+      "password": "$2a$10$OUIPF5WqwvJd.WB4uFGVSuY2sjwAAFV55JNhHP9o5XFG941jTbp7q",
+      "username": "xyz",
+      "id": 4
+    },
+    {
+      "email": "user123@gmail.com",
+      "password": "$2a$10$Km1rml1/nLzW6WGCia5OU.ZL3Yxojf3Kx10CrpglL1irVZfSTFbZ2",
+      "username": "user",
+      "id": 5
+    }
+  ]
 }
