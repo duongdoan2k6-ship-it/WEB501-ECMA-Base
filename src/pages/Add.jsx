@@ -121,10 +121,7 @@ function AddPage() {
         <div>
           <label className="block font-medium mb-1">Số lượng còn</label>
           <input
-            type="number"
-            value={available}
-            onChange={(e) => setAvailable(e.target.value)}
-            className="w-full border rounded-lg px-3 py-2"
+            type="number" value={available} onChange={(e) => setAvailable(e.target.value)} className="w-full border rounded-lg px-3 py-2"
           />
         </div>
 
